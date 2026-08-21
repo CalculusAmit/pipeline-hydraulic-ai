@@ -1,0 +1,20 @@
+# Python virtual environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local application data and generated reports
+*.db
+reports/generated/
+
+# Frontend dependencies (added in a later phase)
+frontend/node_modules/
+frontend/dist/
